@@ -6,12 +6,12 @@ This Terraform code creates an S3 Bucket, an AWS Lambda function, and triggers t
 
 ## Problem Statement
 
-! [Project](s3-bucket-triggerr800X600.jpg)
+![Project_01](s3-bucket-triggerr800X600.jpg)
 
 A vendor needs to upload a file to an S3 bucket every day for reporting purposes. We want to make sure this bucket is emptied out on a weekly basis on Sundays in order to keep costs down. Please create an S3 bucket and Lambda function using Terraform and any other services you deem required to complete this task. This process must be 100% automated and the Lambda function must be created using the latest version of Python. We also would like the Python script to detect if there are any lingering files left over in the S3 bucket after being emptied and alert members of the DevOps team if any are found. You will Terraform the creation of AWS resources to help solve this problem. You will also be expected to provide an output file as well as a tfvars file. We expect all modules and resources created to use variables as that is best practice in Terraform.
 
 
-# TODO: Update the SNS topic ARN on line 22 to your own topic ARN
+## TO-DO: Update the SNS topic ARN on line 22 to your own topic ARN
 
 - Open the lambda_function.py file that contains the SNS topic ARN that needs to be updated
 - Update the SNS topic ARN on line 22 with your own topic ARN
